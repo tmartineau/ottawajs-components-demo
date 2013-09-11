@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e29314bf-5588-4a00-96ea-e2df7bd33251" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/select.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="e29314bf-5588-4a00-96ea-e2df7bd33251" name="Default" comment="" />
     <ignored path="ottawajs-components-demo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="e29314bf-5588-4a00-96ea-e2df7bd33251" time="1378862319862" ignored="false" />
     <file path="/index.html" changelist="e29314bf-5588-4a00-96ea-e2df7bd33251" time="1378864762264" ignored="false" />
-    <file path="/dummy.xml" changelist="e29314bf-5588-4a00-96ea-e2df7bd33251" time="1378864909885" ignored="false" />
+    <file path="/dummy.xml" changelist="e29314bf-5588-4a00-96ea-e2df7bd33251" time="1378865399680" ignored="false" />
     <file path="/global.css" changelist="e29314bf-5588-4a00-96ea-e2df7bd33251" time="1378864504611" ignored="false" />
     <file path="/scripts.js" changelist="e29314bf-5588-4a00-96ea-e2df7bd33251" time="1378863968912" ignored="false" />
-    <file path="/select.html" changelist="e29314bf-5588-4a00-96ea-e2df7bd33251" time="1378864939143" ignored="false" />
+    <file path="/select.html" changelist="e29314bf-5588-4a00-96ea-e2df7bd33251" time="1378865454767" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +41,7 @@
       <file leaf-file-name="select.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/select.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="25" selection-start="422" selection-end="422" vertical-scroll-proportion="0.40846682">
+            <state line="43" column="19" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.47139588">
               <folding />
             </state>
           </provider>
@@ -421,7 +417,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/select.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="422" selection-end="422" vertical-scroll-proportion="0.40846682">
+        <state line="43" column="19" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.47139588">
           <folding />
         </state>
       </provider>

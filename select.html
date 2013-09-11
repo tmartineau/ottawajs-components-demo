@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Components Demo</title>
+
+    <link rel="stylesheet" href="css/libs/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/global.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <h1>HTML5 Components Demo</h1>
+        <h2>Shadow DOM</h2>
+    </div>
+
+    <div class="better-blink">
+        <p class="title">Tonight...</p>
+        <p class="message">Ottawa JS!</p>
+    </div>
+</div>
+
+<!-- TEMPLATES -->
+<template id="better-blink-tmpl">
+    <style type="text/css">
+        .outer {
+            display: block;
+            padding: 15px 20px;
+            position: relative;
+            font-size: 48px;
+            text-align: center;
+            color: #fff;
+            background: #333;
+            border-radius: 10px;
+        }
+
+        p {
+            margin: 0;
+            line-height: 1em;
+        }
+        .title {
+            padding: 5px 20px;
+            border: 3px solid #333;
+            position: absolute;
+            left: 60px;
+            top: -30px;
+            font-weight: bold;
+            color: #333;
+            background: #fff;
+        }
+        .message {
+            -webkit-animation: blink 0.75s infinite;
+        }
+
+        .bulb {
+            width: 50px;
+            height: 50px;
+            margin-top: -25px;
+            position: absolute;
+            top: 50%;
+            left: -25px;
+            background: -webkit-radial-gradient(center, ellipse cover, #ecedd5 0%,#e5ea56 100%);
+            border-radius: 100%;
+            -webkit-animation: blink-box 0.75s infinite;
+        }
+        .bulb.bulb-right {
+            left: auto;
+            right: -25px;
+        }
+
+        @-webkit-keyframes blink {
+            0% {
+                text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+            }
+            50% {
+                text-shadow: 0 0 30px rgba(255, 234, 133, 1);
+            }
+            0% {
+                text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+            }
+        }
+    </style>
+
+    <div class="outer">
+        <div class="bulb bulb-left"></div>
+        <p class="title"><content select=".title"></content></p>
+        <p class="message"><content select=".message"></content></p>
+        <div class="bulb bulb-right"></div>
+    </div>
+</template>
+
+<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
