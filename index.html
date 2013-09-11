@@ -12,5 +12,39 @@
 
         <div class="better-blink">Hey There!</div>
     </div>
+
+    <!-- TEMPLATES -->
+    <template id="better-blink-tmpl">
+        <style type="text/css">
+            .outer {
+                display: block;
+                padding: 10px 15px;
+                font-size: 48px;
+                text-align: center;
+                color: #fff;
+                background: #333;
+                border-radius: 10px;
+                -webkit-animation: blink 0.75s infinite;
+            }
+
+            @-webkit-keyframes blink {
+                0% {
+                    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+                }
+                50% {
+                    text-shadow: 0 0 30px rgba(255, 234, 133, 1);
+                }
+                0% {
+                    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+                }
+            }
+        </style>
+
+        <div class="outer">
+            <content></content>
+        </div>
+    </template>
+
+    <script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>
