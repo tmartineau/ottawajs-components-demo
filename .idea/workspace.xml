@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e29314bf-5588-4a00-96ea-e2df7bd33251" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/global.css" afterPath="$PROJECT_DIR$/css/global.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/select.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ottawajs-components-demo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="e29314bf-5588-4a00-96ea-e2df7bd33251" time="1378862319862" ignored="false" />
-    <file path="/index.html" changelist="e29314bf-5588-4a00-96ea-e2df7bd33251" time="1378864482995" ignored="false" />
-    <file path="/dummy.xml" changelist="e29314bf-5588-4a00-96ea-e2df7bd33251" time="1378864185855" ignored="false" />
+    <file path="/index.html" changelist="e29314bf-5588-4a00-96ea-e2df7bd33251" time="1378864762264" ignored="false" />
+    <file path="/dummy.xml" changelist="e29314bf-5588-4a00-96ea-e2df7bd33251" time="1378864909885" ignored="false" />
     <file path="/global.css" changelist="e29314bf-5588-4a00-96ea-e2df7bd33251" time="1378864504611" ignored="false" />
     <file path="/scripts.js" changelist="e29314bf-5588-4a00-96ea-e2df7bd33251" time="1378863968912" ignored="false" />
+    <file path="/select.html" changelist="e29314bf-5588-4a00-96ea-e2df7bd33251" time="1378864939143" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +36,25 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="44" selection-start="1185" selection-end="1185" vertical-scroll-proportion="-21.0">
+            <state line="15" column="50" selection-start="0" selection-end="2026" vertical-scroll-proportion="-10.592592">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="select.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/select.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="25" selection-start="422" selection-end="422" vertical-scroll-proportion="0.40846682">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="11" selection-start="329" selection-end="329" vertical-scroll-proportion="0.4428413">
+            <state line="19" column="11" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -77,8 +88,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/js/scripts.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/global.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/select.html" />
       </list>
     </option>
   </component>
@@ -276,6 +288,13 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -379,13 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="44" selection-start="1185" selection-end="1185" vertical-scroll-proportion="-21.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="29" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
@@ -395,7 +407,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="11" selection-start="329" selection-end="329" vertical-scroll-proportion="0.4428413">
+        <state line="19" column="11" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="50" selection-start="0" selection-end="2026" vertical-scroll-proportion="-10.592592">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/select.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="25" selection-start="422" selection-end="422" vertical-scroll-proportion="0.40846682">
           <folding />
         </state>
       </provider>
